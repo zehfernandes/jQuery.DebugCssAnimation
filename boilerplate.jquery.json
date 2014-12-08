@@ -1,0 +1,29 @@
+{
+	"name": "jQuery.DebugCssAnimation",
+	"title": "jQuery Debug Css Animation",
+	"description": "jQuery plugin to Debug quickly CSS animations",
+	"keywords": [
+		"jquery",
+		"css animation",
+		"debug"
+	],
+	"version": "1.0",
+	"author": {
+		"name": "Zeh Fernandes",
+		"email": "ozehfernandes@gmail.com",
+		"url": "https://github.com/zehfernandes"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://zehfernandes.mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/zehfernandes/jQuery.DebugCssAnimation/issues",
+	"homepage": "http://zehfernandes.github.io/jQuery.DebugCssAnimation/",
+	"docs": "https://github.com/zehfernandes/jQuery.DebugCssAnimation#readme",
+	"download": "https://github.com/zehfernandes/jQuery.DebugCssAnimation/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
