@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Boilerplate</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="http://zehfernandes.github.io/jQuery.DebugCssAnimation/dist/jquery.boilerplate.js"></script>
+
+	<style type="text/css">
+		.wrapper { width: 60%; margin: 0 auto; }
+		h1 { -webkit-animation: myfirst 10s linear; -moz-animation: myfirst 10s linear; }
+		p { line-height: 18px; -webkit-animation: myfirst 2s linear; -moz-animation: myfirst 2s linear; }
+
+		@-webkit-keyframes myfirst {
+		    0%   {background: red; left:0px; top:0px;}
+		    25%  {background: yellow; left:200px; top:0px;}
+		    50%  {background: blue; left:200px; top:200px;}
+		    75%  {background: green; left:0px; top:200px;}
+		    100% {background: red; left:0px; top:0px;}
+		}
+
+		@-moz-keyframes myfirst {
+		    0%   {background: red; left:0px; top:0px;}
+		    25%  {background: yellow; left:200px; top:0px;}
+		    50%  {background: blue; left:200px; top:200px;}
+		    75%  {background: green; left:0px; top:200px;}
+		    100% {background: red; left:0px; top:0px;}
+		}
+
+	</style>
+
+	</head>
+	<body>
+		<script>
+			$(function() {
+				$('body').debugCssAnimation({
+					debugClass: "debug-animation"
+				});
+			});
+		</script>
+
+
+		<div class="wrapper">
+			<h1 class="debug-animation teste">Debug Css Animations</h1>
+			<p class="debug-animation">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac diam sit amet enim pretium rutrum. Sed malesuada dolor nisl, quis pulvinar lacus egestas in. Vivamus gravida pulvinar mollis. Nam convallis iaculis mi, vel sodales velit vestibulum nec. Vivamus at tortor purus. Integer viverra, ex sed mollis sagittis, dolor libero pharetra dolor, at commodo leo magna eu enim. Donec non ligula tempus, dictum lectus eget, sagittis nunc. Fusce lacinia rhoncus nisl, et tincidunt augue venenatis non. Praesent sodales orci erat, fermentum tincidunt nisl rutrum non. Curabitur accumsan dolor suscipit sem pulvinar, eu iaculis diam tempor. Vestibulum ut augue urna. Integer ullamcorper laoreet lorem, at dictum nulla tristique eu. Pellentesque eu mi a mi viverra tempus non vitae magna. Curabitur convallis purus nec fringilla semper.</p>
+			<a href="">More infos</a>
+
+
+		</div>
+	</body>
+</html>
