@@ -40,4 +40,4 @@ and put the css class `debug-animation` in the elements that you want debug, lik
 
 * [Jquery Boilerplate](http://jqueryboilerplate.com/)
 * [Nicola Gallagher - Pure CSS GUI icons](http://nicolasgallagher.com/pure-css-gui-icons/)
-
+* [EpicCheddar] (https://github.com/EpicCheddar) ideas and debate
