@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 
 		// Import package manifest
-		pkg: grunt.file.readJSON("boilerplate.jquery.json"),
+		pkg: grunt.file.readJSON("debugcssanimation.jquery.json"),
 
 		// Banner definitions
 		meta: {
@@ -20,8 +20,8 @@ module.exports = function(grunt) {
 		// Concat definitions
 		concat: {
 			dist: {
-				src: ["src/jquery.boilerplate.js"],
-				dest: "dist/jquery.boilerplate.js"
+				src: ["src/jquery.debugcssanimation.js"],
+				dest: "dist/jquery.debugcssanimation.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
 		// Lint definitions
 		jshint: {
-			files: ["src/jquery.boilerplate.js"],
+			files: ["src/jquery.debugcssanimation.js"],
 			options: {
 				jshintrc: ".jshintrc"
 			}
@@ -39,29 +39,19 @@ module.exports = function(grunt) {
 		// Minify definitions
 		uglify: {
 			my_target: {
-				src: ["dist/jquery.boilerplate.js"],
-				dest: "dist/jquery.boilerplate.min.js"
+				src: ["dist/jquery.debugcssanimation.js"],
+				dest: "dist/jquery.debugcssanimation.min.js"
 			},
 			options: {
 				banner: "<%= meta.banner %>"
 			}
 		},
 
-		// CoffeeScript compilation
-		coffee: {
-			compile: {
-				files: {
-					"dist/jquery.boilerplate.js": "src/jquery.boilerplate.coffee"
-				}
-			}
-		}
-
 	});
 
 	grunt.loadNpmTasks("grunt-contrib-concat");
 	grunt.loadNpmTasks("grunt-contrib-jshint");
 	grunt.loadNpmTasks("grunt-contrib-uglify");
-	grunt.loadNpmTasks("grunt-contrib-coffee");
 
 	grunt.registerTask("default", ["jshint", "concat", "uglify"]);
 	grunt.registerTask("travis", ["jshint"]);
