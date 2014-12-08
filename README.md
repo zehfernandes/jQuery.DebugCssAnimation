@@ -9,7 +9,7 @@ jQuery plugin to Debug quickly CSS animations. The plugin create a control stati
 
 ## Setup
 
-jQuery Debug Css Animaton depends on jQuery. Include them both in end of your HTML code:
+jQuery Debug Css Animation depends on jQuery. Include them both in end of your HTML code:
 
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -23,7 +23,6 @@ $('body').debugCssAnimation({
 	debugClass: "debug-animation"
 });
 ```
-
 and put the css class `debug-animation` in the elements that you want debug, like this:
 
 ```html
@@ -34,12 +33,11 @@ and put the css class `debug-animation` in the elements that you want debug, lik
 ## To-do
 
 * Try to discover a way to build a timeline (if you have a idea how to do that. Help! :D)
-* Add Transition support
-* Put a button for you change de easing effects during the tests.
+* Add CSS Transition support
+* Put a button for change the easing effects during the tests.
 
 ## Thanks
 
 * [Jquery Boilerplate](http://jqueryboilerplate.com/)
 * [Nicola Gallagher - Pure CSS GUI icons](http://nicolasgallagher.com/pure-css-gui-icons/)
-* Gui gonça
 
