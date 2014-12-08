@@ -3,7 +3,7 @@ jQuery.DebugCssAnimation
 
 jQuery plugin to Debug quickly CSS animations. The plugin create a control station for you: pause, play and reset each element or all with css class `debug-animation`
 
-![alt text](http://zehfernandes.github.io/jQuery.DebugCssAnimation/control-panel.png "Image of control panel")
+![alt text](http://zehfernandes.github.io/jQuery.DebugCssAnimation/control-panel-img.png "Image of control panel")
 
 [Check the demo](http://zehfernandes.github.io/jQuery.DebugCssAnimation/demo/)
 
