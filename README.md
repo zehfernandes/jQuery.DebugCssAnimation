@@ -30,6 +30,10 @@ and put the css class `debug-animation` in the elements that you want debug, lik
 <p class="debug-animation">Lorem ipsum</p>
 ```
 
+## Bookmarklet
+
+Alternatively, you can use the tool as a bookmarklet. See the [bookmarklet demo page](demo/bookmarklet-demo.html) for more details.
+
 ## To-do
 
 * Try to discover a way to build a timeline (if you have a idea how to do that. Help! :D)

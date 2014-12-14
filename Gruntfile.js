@@ -42,6 +42,12 @@ module.exports = function(grunt) {
 				src: ["dist/jquery.debugcssanimation.js"],
 				dest: "dist/jquery.debugcssanimation.min.js"
 			},
+			// TODO: uglify creates '!function' minified code, so 'javascript:' should be prepended to it for bookmarklet to work.
+			// Also, 'javascript:!javascript()' generated code doesn't work in Firefox, so it should be changed to 'javascript:(function()'
+			bookmarklet: {
+				src: ["src/jquery.debugcssanimation-bookmarklet.js"],
+				dest: "src/jquery.debugcssanimation-bookmarklet.min.js"
+			},
 			options: {
 				banner: "<%= meta.banner %>"
 			}
