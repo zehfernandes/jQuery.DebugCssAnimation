@@ -32,10 +32,11 @@ and put the css class `debug-animation` in the elements that you want debug, lik
 
 ## Bookmarklet
 
-Alternatively, you can use the tool as a bookmarklet. See the [bookmarklet demo page](demo/bookmarklet-demo.html) for more details.
+Alternatively, you can use the tool as a bookmarklet. See the [bookmarklet demo page](http://zehfernandes.github.io/jQuery.DebugCssAnimation/demo/bookmarklet-demo.html) for more details.
 
 ## To-do
 
+* Better input using the bookmarklet tool
 * Try to discover a way to build a timeline (if you have a idea how to do that. Help! :D)
 * Add CSS Transition support
 * Put a button for change the easing effects during the tests.
@@ -44,4 +45,5 @@ Alternatively, you can use the tool as a bookmarklet. See the [bookmarklet demo 
 
 * [Jquery Boilerplate](http://jqueryboilerplate.com/)
 * [Nicola Gallagher - Pure CSS GUI icons](http://nicolasgallagher.com/pure-css-gui-icons/)
-* [EpicCheddar] (https://github.com/EpicCheddar) ideas and debate
+* [ZoranJambor](https://github.com/ZoranJambor) the bookmarklet tool
+* [EpicCheddar](https://github.com/EpicCheddar) ideas and debate
